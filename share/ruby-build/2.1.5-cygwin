@@ -1,0 +1,2 @@
+install_package "openssl-1.0.1m" "https://www.openssl.org/source/openssl-1.0.1m.tar.gz#095f0b7b09116c0c5526422088058dc7e6e000aa14d22acca6a4e2babcdfef74" mac_openssl --if has_broken_mac_openssl
+install_package "ruby-2.1.5" "http://shakr-deployment.s3.amazonaws.com/ruby-2.1.5-cygwin.tar.gz#2a7e90f6fcad259b7fcb893965bde620668278f9ef73fc136c3bb205941980e4" ldflags_dirs standard verify_openssl
